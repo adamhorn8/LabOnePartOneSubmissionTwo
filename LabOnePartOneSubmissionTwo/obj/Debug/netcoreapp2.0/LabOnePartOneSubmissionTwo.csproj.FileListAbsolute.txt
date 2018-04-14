@@ -1,0 +1,11 @@
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/bin/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.deps.json
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/bin/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.runtimeconfig.json
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/bin/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.runtimeconfig.dev.json
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/bin/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.dll
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/bin/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.pdb
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/obj/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.csprojResolveAssemblyReference.cache
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/obj/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.csproj.CoreCompileInputs.cache
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/obj/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.AssemblyInfoInputs.cache
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/obj/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.AssemblyInfo.cs
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/obj/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.dll
+/Users/Adam/Projects/LabOnePartOneSubmissionTwo/LabOnePartOneSubmissionTwo/obj/Debug/netcoreapp2.0/LabOnePartOneSubmissionTwo.pdb
