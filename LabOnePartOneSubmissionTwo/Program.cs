@@ -33,12 +33,12 @@ namespace LabOnePartOne
                 Console.WriteLine("Both of your numbers have more than three digits.");
             else
             {
-                if (FirstNumber.Length > ProperLengthNumber)
-                    Console.WriteLine("Your first number had more than three digits.");
+                if ((FirstNumber.Length < ProperLengthNumber) && (SecondNumber.Length < ProperLengthNumber))
+                     Console.WriteLine("Both of your numbers have less than three digits.");
                 else
                 {
-                     if ((FirstNumber.Length < ProperLengthNumber) && (SecondNumber.Length < ProperLengthNumber))
-                         Console.WriteLine("Both of your numbers have less than three digits.");
+                     if (FirstNumber.Length > ProperLengthNumber)
+                         Console.WriteLine("Your first number had more than three digits.");
                      else
                      {
                           if (FirstNumber.Length < ProperLengthNumber)
@@ -69,14 +69,18 @@ namespace LabOnePartOne
         }
         static void Task(string FirstNumber, string SecondNumber)
         {
-            //Identify the Ones, Tens, & Hundreds place of each three digit number.
-            int FirstNumberHundreds = FirstNumber[0];
-            int FirstNumberTens = FirstNumber[1];
-            int FirstNumberOnes = FirstNumber[2];
 
-            int SecondNumberHundreds = SecondNumber[0];
-            int SecondNumberTens = SecondNumber[1];
-            int SecondNumberOnes = SecondNumber[2];
+            int FirstNumberInt = Int32.Parse(FirstNumber);
+            int SecondNumberInt = Int32.Parse(SecondNumber);
+
+            //Identify the Ones, Tens, & Hundreds place of each three digit number.
+            int FirstNumberHundreds = (FirstNumberInt / 100);
+            int FirstNumberTens = ((FirstNumberInt - (FirstNumberHundreds * 100)) / 10);
+            int FirstNumberOnes = ((FirstNumberInt - (FirstNumberHundreds * 100) - (FirstNumberTens * 10)));
+
+            int SecondNumberHundreds = (SecondNumberInt / 100);
+            int SecondNumberTens = ((SecondNumberInt - (SecondNumberHundreds * 100)) / 10);
+            int SecondNumberOnes = ((SecondNumberInt - (SecondNumberHundreds * 100) - (SecondNumberTens * 10)));
 
 
             //Add the two numbers in the hundreds place, the two numbers in the tens place, & the two numbers in the ones place.  Assign a varriable to each of the sums.
@@ -92,5 +96,5 @@ namespace LabOnePartOne
                 Console.WriteLine(false);
             }
         }
-    }
+    };
 }
